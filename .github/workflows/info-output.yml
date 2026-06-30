@@ -14,3 +14,4 @@ jobs:
           echo "Workflow: ${{ github.workflow }}"
           echo "Run ID: ${{ github.run_id }}"
           echo "Run Number: ${{ github.run_number }}"
+          echo "${{ toJson(github.event) }}"
