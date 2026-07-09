@@ -3,6 +3,7 @@ on:
   issues:
   schedule:
     - cron: '15 * * * *'
+  workflow_dispatch: 
 jobs:
   info-output:
     runs-on: ubuntu-latest
