@@ -9,7 +9,7 @@ on:
 jobs:
   info-output:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: prod
     steps:
       - name: Output event details
         run: |
