@@ -1,10 +1,10 @@
 name: Info Output
 on:
 #  issues:
-#  schedule:
+  schedule:
 #    - cron: '0 21 * * *'
 #    - cron: '5 21 * * *'
-#    - cron: '0 * * * *'
+    - cron:  '0 */2 * * *'
   workflow_dispatch:
 jobs:
   info-output:
